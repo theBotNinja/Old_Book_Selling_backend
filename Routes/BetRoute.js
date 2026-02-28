@@ -1,5 +1,6 @@
 const express = require('express')
 const router = express.Router()
+
 const BetModel = require('../models/BetModel')
 const Booksmodel = require('../models/Booksmodel')
 const userSchema = require('../models/UserModel')
