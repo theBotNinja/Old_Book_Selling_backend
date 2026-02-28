@@ -4,7 +4,7 @@ const Booksmodel = require('../models/Booksmodel')
 const { auth, isAdmin } = require("../middleware/authMiddleware")
 const streamifier = require("streamifier");
 const multer = require("multer");
-const cloudinary = require("../config/Cloudinary");
+const cloudinary = require("../config/cloudinary1");
 const storage = multer.memoryStorage();
 
 const upload = multer({
